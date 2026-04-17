@@ -167,6 +167,3 @@ The purpose of this project is to combine practical software engineering, machin
 ## Author
 
 Developed as an independent project focused on solving practical career discovery and planning problems.
-
-```
-

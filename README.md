@@ -1,4 +1,3 @@
-````md
 # Smart Career Assistance
 
 Smart Career Assistance is an AI-powered career guidance platform designed to help users explore career options, understand required skills, identify skill gaps, and track their learning journey over time.

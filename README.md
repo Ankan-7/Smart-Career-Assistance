@@ -122,6 +122,7 @@ venv\Scripts\activate
 ### Install Dependencies
 
 ```bash
+cd server
 pip install -r requirements.txt
 ```
 
@@ -136,6 +137,7 @@ ALGORITHM=HS256
 ### Run Server
 
 ```bash
+cd server
 uvicorn app.main:app --reload
 ```
 

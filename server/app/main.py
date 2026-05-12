@@ -6,8 +6,17 @@ from app.routes.auth import router as auth_router
 from app.routes.user import router as user_router
 from app.routes.career import router as career_router
 from app.models import UserActivity
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 app.include_router(user_router)
 
 app.include_router(auth_router)
